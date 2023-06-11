@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "956356426915",
+    "project_id": "bolivarenfalda-9c00b",
+    "storage_bucket": "bolivarenfalda-9c00b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956356426915:android:7a4e17aa235203dfb85316",
+        "android_client_info": {
+          "package_name": "com.example.bolivarenfalda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "956356426915-ddn31p06slafsek909h5j7galmujcda0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQ0_JOE1rHDWk-iBCqwQsgB9fHJtc9eg8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "956356426915-ddn31p06slafsek909h5j7galmujcda0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

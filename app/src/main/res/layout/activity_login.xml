@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo0"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="320dp"
+            android:padding="30dp">
+            <EditText
+                android:id="@+id/login_email"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/nebula_border"
+                android:drawableLeft="@drawable/baseline_email_24"
+                android:drawablePadding="8dp"
+                android:hint="Email"
+                android:textColorHint="@color/black"
+                android:padding="8dp"
+                android:textColor="@color/lavender"/>
+
+            <EditText
+
+
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:id="@+id/login_password"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/nebula_border"
+                android:padding="8dp"
+                android:hint="Password"
+                android:textColorHint="@color/black"
+                android:inputType="textPassword"
+                android:drawableLeft="@drawable/baseline_lock_24"
+                android:drawablePadding="8dp"
+                android:textColor="@color/lavender"/>
+
+
+
+
+            <Button
+
+                android:layout_width="250dp"
+                android:layout_gravity="center"
+                android:layout_height="48dp"
+                android:layout_marginTop="30dp"
+                android:text="Ingresar"
+                android:id="@+id/ingresar_button"
+                android:textSize="18sp"
+                android:textColor="@color/lavender"
+                app:cornerRadius = "30dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/registrarRedirectText"
+                android:text="No tienes cuenta? Registrame"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:padding="2dp"
+                android:layout_marginTop="2dp"
+                android:textSize="15sp"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+     </ScrollView>
+
